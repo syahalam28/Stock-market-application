@@ -1,0 +1,8 @@
+
+Mengambil nama
+https://api.worldtradingdata.com/api/v1/stock?symbol=INFY.NS&api_token=token
+http://api.marketstack.com/v1/tickers/AAPL/eod?access_key=1d68025e2a7c8825bac0acfa7a8fff59&symbols=AAPL
+
+Mengambil data harian,bulanan,tahunan
+https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=GOOG&apikey=key
+https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=TSCO.LON&outputsize=full&apikey=1d68025e2a7c8825bac0acfa7a8fff59
