@@ -2,11 +2,6 @@
 require_once('includes/config.php');
 // json response
 
-//https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=GOOG&apikey=$key
-//https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=GOOG&apikey=1878AU9E6PCOED1E
-// https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo
-// "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=$symbol&apikey=$key&outputsize=full"
-// https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=$symbol&outputsize=full&apikey=demo
 
 $curl = curl_init();
 $symbol = "AAPL";
